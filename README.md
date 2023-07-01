@@ -7,6 +7,9 @@
 5. Run **test scripts** in command line  `npm run test`
 6. You will see the number of skipped, passing and failing tests.
 
+
+to run individual test suite use smth like `npm run test ./src/05-partial-mocking/* -- --silent=false`
+
 I did not bother creating dev branch and pull request, all code is on master; just clone the repo and test! 
 
 Please contact me if you have any questions at halavach@protonmail.com or using Discord
