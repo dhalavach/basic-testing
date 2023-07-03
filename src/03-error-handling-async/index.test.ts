@@ -6,14 +6,6 @@ import {
   rejectCustomError,
 } from './index';
 
-// import {
-//   resolveValue,
-//   throwError,
-//   throwCustomError,
-//   MyAwesomeError,
-//   rejectCustomError
-// } from '03-error-handling-async';
-
 describe('resolveValue', () => {
   test('should resolve provided value', async () => {
     const value = await resolveValue('value');
